@@ -3,104 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wheatbee Ltd | Premium Snacks</title>
+    <title>Wheatbee Ltd | Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <div class="logo">Wheatbee Ltd</div>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#products">Products</a>
-            <a href="#contact">Contact</a>
+    <header class="topbar">
+        <div class="brand">Wheatbee Ltd</div>
+        <nav class="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
-        <section id="home" class="hero">
+        <section class="hero home-hero">
             <div class="hero-copy">
-                <p class="tag">Freshly roasted and packed for every craving</p>
+                <p class="eyebrow">Freshly roasted and packed for every craving</p>
                 <h1>Crunchy snacks that keep your day moving.</h1>
                 <p>From live crisps and popcorns to roasted nuts and cashew nuts, Wheatbee Ltd brings delicious, satisfying flavours to your table.</p>
                 <div class="hero-actions">
-                    <a href="#products" class="btn">Explore Products</a>
-                    <a href="#contact" class="btn secondary">Contact Us</a>
+                    <a href="products.html" class="btn">Explore Products</a>
+                    <a href="contact.html" class="btn btn-light">Contact Us</a>
                 </div>
             </div>
 
-            <div class="hero-grid">
-                <div class="snack-card card-one">
+            <div class="hero-gallery">
+                <div class="gallery-card card-one">
                     <span>Live Crisps</span>
                     <strong>Golden & crunchy</strong>
                 </div>
-                <div class="snack-card card-two">
+                <div class="gallery-card card-two">
                     <span>Popcorns</span>
                     <strong>Light & savory</strong>
                 </div>
-                <div class="snack-card card-three">
+                <div class="gallery-card card-three">
                     <span>Roasted Nuts</span>
                     <strong>Rich & satisfying</strong>
                 </div>
-                <div class="snack-card card-four">
+                <div class="gallery-card card-four">
                     <span>Cashew Nuts</span>
                     <strong>Buttery & premium</strong>
                 </div>
             </div>
         </section>
 
-        <section id="products" class="products-section">
+        <section class="feature-section">
             <div class="section-heading">
-                <p class="tag">Our collection</p>
-                <h2>Popular Products</h2>
+                <p class="eyebrow">Our promise</p>
+                <h2>Fresh flavour in every bite</h2>
             </div>
 
-            <div class="products">
-                <article class="product">
-                    <div class="product-visual">
-                        <img src="https://images.unsplash.com/photo-1604908553252-8c4b1a1d2e39?auto=format&fit=crop&w=900&q=80" alt="Crisps bursting out of a packet">
-                    </div>
-                    <h3>Live Crisps</h3>
-                    <p>Freshly prepared, crunchy, and packed with flavour.</p>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <h3>Made for cravings</h3>
+                    <p>Bold textures and vibrant tastes for lunch breaks, movie nights, and everyday snacking.</p>
                 </article>
-
-                <article class="product">
-                    <div class="product-visual">
-                        <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80" alt="Popcorn spilling out of a packet">
-                    </div>
-                    <h3>Popcorns</h3>
-                    <p>Light, airy, and perfect for sharing with family and friends.</p>
+                <article class="feature-card">
+                    <h3>Quality ingredients</h3>
+                    <p>We select premium ingredients and careful preparation for a satisfying crunch every time.</p>
                 </article>
-
-                <article class="product">
-                    <div class="product-visual">
-                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Roasted nuts in a bowl and packet">
-                    </div>
-                    <h3>Roasted Nuts</h3>
-                    <p>Rich, wholesome, and naturally delicious snacking goodness.</p>
+                <article class="feature-card">
+                    <h3>Trusted by families</h3>
+                    <p>From local shops to households, our snacks are made to bring people together.</p>
                 </article>
-
-                <article class="product">
-                    <div class="product-visual">
-                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Premium cashew nuts and snacks">
-                    </div>
-                    <h3>Cashew Nuts</h3>
-                    <p>Premium buttery cashews crafted for smooth, satisfying crunch.</p>
-                </article>
-            </div>
-        </section>
-
-        <section id="contact" class="contact-section">
-            <div class="section-heading">
-                <p class="tag">Reach us</p>
-                <h2>Contact Wheatbee Ltd</h2>
-            </div>
-
-            <div class="contact-box">
-                <p><strong>Address:</strong> Nairobi, Kenya</p>
-                <p><strong>Phone:</strong> +254 700 000 000</p>
-                <p><strong>Email:</strong> hello@wheatbee.co.ke</p>
             </div>
         </section>
     </main>
@@ -108,7 +74,5 @@
     <footer>
         <p>&copy; 2026 Wheatbee Ltd. All rights reserved.</p>
     </footer>
-
-    <script src="style.js"></script>
 </body>
 </html>
