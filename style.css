@@ -169,16 +169,16 @@ header.topbar {
 }
 
 .card-one {
-    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://images.unsplash.com/photo-1604908553252-8c4b1a1d2e39?auto=format&fit=crop&w=900&q=80');
+    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=900&q=80');
 }
 .card-two {
-    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80');
+    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80');
 }
 .card-three {
-    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80');
+    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://upload.wikimedia.org/wikipedia/commons/8/8b/Cheese_Popcorn_Closeup_%2810590157123%29.jpg');
 }
 .card-four {
-    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80');
+    background-image: linear-gradient(rgba(17,17,17,0.2), rgba(17,17,17,0.45)), url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Cashew_nuts_in_North_nullivilai.jpg');
 }
 
 .section-heading {
